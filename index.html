@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Restaurant Carré d'Or | Premium Café in Béni Mellal, Morocco</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Discover Café Restaurant Carré d'Or in Béni Mellal. Open 24/24 on Bd Hassan II. Enjoy delicious coffee, Moroccan tea, rich breakfast, artisanal pizza, and fine dining in a luxurious atmosphere.">
+    <meta name="keywords" content="Café Carré d'Or, Restaurant Beni Mellal, Moroccan Cafe, Bd Hassan II, Coffee, Moroccan Tea, Pizza, Breakfast, Dine-in, 24/24 Cafe">
+    <meta name="author" content="Carré d'Or">
+    <meta property="og:title" content="Café Restaurant Carré d'Or | Premium Moroccan Hospitality">
+    <meta property="og:description" content="Savor exceptional coffee, authentic Moroccan meals, and rich hospitality. Open 24/24 at Bd Hassan II, Béni Mellal.">
+    <meta property="og:image" content="assets/cafe_interior_1.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/coffee.png">
+    
+    <!-- Google Fonts Preconnect and Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================================================
+       NAVIGATION BAR
+       ========================================================================== -->
+    <nav class="navbar" id="main-navbar">
+        <div class="container">
+            <a href="#" class="logo" id="nav-logo">
+                <span class="logo-main">CARRÉ D'OR</span>
+                <span class="logo-sub">CAFÉ RESTAURANT</span>
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu-list">
+                <li><a href="#hero" class="nav-link active" id="nav-link-home">Home</a></li>
+                <li><a href="#about" class="nav-link" id="nav-link-about">About Us</a></li>
+                <li><a href="#menu" class="nav-link" id="nav-link-menu">Menu</a></li>
+                <li><a href="#gallery" class="nav-link" id="nav-link-gallery">Gallery</a></li>
+                <li><a href="#reservation" class="nav-link" id="nav-link-reservation">Reservations</a></li>
+                <li><a href="#contact" class="nav-link" id="nav-link-contact">Find Us</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+                    <i data-lucide="moon" id="theme-icon"></i>
+                </button>
+                
+                <!-- Quick Reservation CTA -->
+                <a href="#reservation" class="btn btn-outline-gold" style="padding: 10px 20px; font-size: 0.8rem;" id="nav-book-btn">Book Table</a>
+                
+                <!-- Mobile Navigation Toggle -->
+                <button class="mobile-nav-toggle" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-tagline">Moroccan Hospitality & Modern Luxury</span>
+            <h1 class="hero-title">Café Restaurant<br><span style="color: var(--color-accent);">Carré d'Or</span></h1>
+            <p class="hero-subtitle">Experience exquisite coffee, fine dining, ultimate relaxation, and warm Moroccan hospitality in the heart of Béni Mellal.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary" id="hero-menu-btn">
+                    <span>View Menu</span>
+                    <i data-lucide="menu" style="width: 16px; height: 16px;"></i>
+                </a>
+                <a href="#reservation" class="btn btn-outline-gold hero-btn-secondary" id="hero-reserve-btn">
+                    <span>Book a Table</span>
+                    <i data-lucide="calendar" style="width: 16px; height: 16px;"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Smooth Scroll Indicator -->
+        <a href="#about" class="scroll-indicator" id="hero-scroll-btn" aria-label="Scroll Down">
+            <span>Discover</span>
+            <i data-lucide="chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- ==========================================================================
+       ABOUT SECTION
+       ========================================================================== -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Image Collage -->
+                <div class="about-images">
+                    <div class="about-img-wrapper" id="about-img-1">
+                        <img src="assets/cafe_interior_2.jpg" alt="Café Restaurant Carré d'Or Seating & Greenery wall">
+                    </div>
+                    <div class="about-img-wrapper" id="about-img-2">
+                        <img src="assets/cafe_interior_3.jpg" alt="Carré d'Or Beautiful Wood Parquet Dining Space">
+                    </div>
+                    
+                    <!-- Decorative Golden Badge -->
+                    <div class="about-badge-card" id="about-gold-badge">
+                        <div class="about-badge-val">24/24</div>
+                        <div class="about-badge-txt">Open Day & Night</div>
+                    </div>
+                </div>
+                
+                <!-- Text Content -->
+                <div class="about-content" id="about-text-content">
+                    <span class="section-subtitle">Our Story</span>
+                    <h2 class="section-title">An Elegant Oasis of Taste & Comfort</h2>
+                    <div class="divider" style="margin-left: 0;"></div>
+                    <p class="about-description" style="margin-top: 30px;">
+                        Welcome to <strong>Café Restaurant Carré d'Or</strong>, Béni Mellal's premium destination for coffee enthusiasts and food lovers alike. Located centrally on the lively Boulevard Hassan II, we combine a warm, sophisticated Moroccan aesthetic with world-class menus and service.
+                    </p>
+                    <p class="about-description" style="font-size: 0.95rem; margin-top: -15px;">
+                        Whether you are beginning your day with a rich Moroccan breakfast, holding a business meeting, enjoying a wood-fired pizza with family, or winding down late at night, our doors are open around the clock to welcome you.
+                    </p>
+                    
+                    <!-- Key Highlight Grid -->
+                    <div class="about-features">
+                        <div class="feature-item" id="feat-location">
+                            <div class="feature-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3 class="feature-title">Premium Location</h3>
+                                <p class="feature-desc">Bd Hassan II, Béni Mellal</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item" id="feat-pricing">
+                            <div class="feature-icon">
+                                <i data-lucide="banknote"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3 class="feature-title">Affordable Luxury</h3>
+                                <p class="feature-desc">Pricing from 1 to 50 MAD</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item" id="feat-service">
+                            <div class="feature-icon">
+                                <i data-lucide="utensils"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3 class="feature-title">Dine-In & Takeaway</h3>
+                                <p class="feature-desc">Beautiful seating layout</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item" id="feat-hours">
+                            <div class="feature-icon">
+                                <i data-lucide="clock"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3 class="feature-title">Open 24/7</h3>
+                                <p class="feature-desc">Always ready to serve you</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#reservation" class="btn btn-primary" id="about-cta-btn">Book A Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+       MENU PREVIEW SECTION (INTERACTIVE)
+       ========================================================================== -->
+    <section class="menu section-padding" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Exquisite Taste</span>
+                <h2 class="section-title">Discover Our Menu Highlights</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <!-- Category Filters -->
+            <div class="menu-filters" id="menu-category-tabs">
+                <button class="filter-btn active" data-category="all" id="filter-all">All Selection</button>
+                <button class="filter-btn" data-category="coffee" id="filter-coffee">Coffee</button>
+                <button class="filter-btn" data-category="tea" id="filter-tea">Moroccan Tea</button>
+                <button class="filter-btn" data-category="breakfast" id="filter-breakfast">Breakfast</button>
+                <button class="filter-btn" data-category="mains" id="filter-mains">Meals & Pizza</button>
+                <button class="filter-btn" data-category="desserts" id="filter-desserts">Desserts</button>
+            </div>
+            
+            <!-- Menu Grid -->
+            <div class="menu-grid" id="menu-items-grid">
+                
+                <!-- Coffee Card -->
+                <div class="menu-card" data-category="coffee" id="menu-item-espresso">
+                    <div class="menu-img-wrapper">
+                        <span class="menu-tag">Signature</span>
+                        <img src="assets/coffee.png" alt="Luxurious Espresso Coffee">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-card-title">Gold Cappuccino</h3>
+                            <span class="menu-price">18 MAD</span>
+                        </div>
+                        <p class="menu-card-desc">Rich double shot espresso layered with silky textured milk and topped with elegant latte art.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-meta"><i data-lucide="coffee"></i> Premium Arabica</span>
+                            <span class="menu-meta"><i data-lucide="thumbs-up"></i> Best Seller</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tea Card -->
+                <div class="menu-card" data-category="tea" id="menu-item-mint-tea">
+                    <div class="menu-img-wrapper">
+                        <span class="menu-tag">Traditional</span>
+                        <img src="assets/tea.png" alt="Steaming Traditional Moroccan Mint Tea">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-card-title">Traditional Mint Tea</h3>
+                            <span class="menu-price">15 MAD</span>
+                        </div>
+                        <p class="menu-card-desc">Authentic gunpowder green tea brewed with fresh spearmint leaves and served hot from a silver teapot.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-meta"><i data-lucide="flame"></i> Steaming Hot</span>
+                            <span class="menu-meta"><i data-lucide="users"></i> Great Shared</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Breakfast Card -->
+                <div class="menu-card" data-category="breakfast" id="menu-item-breakfast-set">
+                    <div class="menu-img-wrapper">
+                        <span class="menu-tag">Morning Special</span>
+                        <img src="assets/breakfast.png" alt="Traditional Moroccan Breakfast Spread">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-card-title">Royal Carré d'Or Breakfast</h3>
+                            <span class="menu-price">35 MAD</span>
+                        </div>
+                        <p class="menu-card-desc">Freshly baked msemmen, flaky harcha, pure honey, olive oil, Moroccan cheese, olives, and fresh orange juice.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-meta"><i data-lucide="sunrise"></i> Served 24/24</span>
+                            <span class="menu-meta"><i data-lucide="utensils"></i> Complete Meal</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Food Card 1 -->
+                <div class="menu-card" data-category="mains" id="menu-item-cordon-bleu">
+                    <div class="menu-img-wrapper">
+                        <span class="menu-tag">Chef's Choice</span>
+                        <img src="assets/food_1.jpg" alt="Premium Crispy Gourmet Plated Roll">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-card-title">Carré d'Or Chicken Roll</h3>
+                            <span class="menu-price">48 MAD</span>
+                        </div>
+                        <p class="menu-card-desc">Crispy golden-crumbed chicken roll stuffed with premium turkey ham, melted mozzarella, served with saffron rice.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-meta"><i data-lucide="star"></i> Premium Plating</span>
+                            <span class="menu-meta"><i data-lucide="award"></i> Specialty</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pizza Card -->
+                <div class="menu-card" data-category="mains" id="menu-item-pizza">
+                    <div class="menu-img-wrapper">
+                        <span class="menu-tag">Wood-Fired</span>
+                        <img src="assets/pizza.png" alt="Artisan Wood-Fired Neapolitan Pizza">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-card-title">Artisan Pizza Margherita</h3>
+                            <span class="menu-price">38 MAD</span>
+                        </div>
+                        <p class="menu-card-desc">Bubbly wood-fired Neapolitan crust topped with crushed San Marzano tomatoes, fresh mozzarella, extra virgin olive oil, and fresh basil.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-meta"><i data-lucide="flame"></i> Freshly Baked</span>
+                            <span class="menu-meta"><i data-lucide="smile"></i> Family Favorite</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Food Card 2 -->
+                <div class="menu-card" data-category="mains" id="menu-item-steak-plate">
+                    <div class="menu-img-wrapper">
+                        <span class="menu-tag">Popular</span>
+                        <img src="assets/food_2.png" alt="Mushroom Steak Plate with Steamed Veggies and Fries">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-card-title">Premium Sautéed Steak Plate</h3>
+                            <span class="menu-price">50 MAD</span>
+                        </div>
+                        <p class="menu-card-desc">Juicy sautéed beef rounds topped with cream mushroom pepper sauce, crispy fries in glass basket, and garden fresh steamed broccoli and carrots.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-meta"><i data-lucide="utensils-cross"></i> Highly Filling</span>
+                            <span class="menu-meta"><i data-lucide="heart"></i> Healthy Sides</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Dessert Card -->
+                <div class="menu-card" data-category="desserts" id="menu-item-moroccan-pastry">
+                    <div class="menu-img-wrapper">
+                        <span class="menu-tag">Sweet Delicacy</span>
+                        <img src="assets/dessert.png" alt="Fine Elegant Moroccan Pastry Selection">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3 class="menu-card-title">Royal Moroccan Pastry Platter</h3>
+                            <span class="menu-price">30 MAD</span>
+                        </div>
+                        <p class="menu-card-desc">Selection of exquisite Moroccan almond cookies (Kaab el Ghazal, Chebakia, Ghoriba) decorated with delicate gold leaves.</p>
+                        <div class="menu-card-footer">
+                            <span class="menu-meta"><i data-lucide="candy"></i> Sweet Taste</span>
+                            <span class="menu-meta"><i data-lucide="coffee"></i> Pair with Tea</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+       RESERVATION SECTION
+       ========================================================================== -->
+    <section class="reservation section-padding" id="reservation">
+        <div class="container">
+            <div class="reservation-grid">
+                
+                <!-- Information Panel -->
+                <div class="reserve-info-panel" id="reservation-info-sidebar">
+                    <h3 class="reserve-info-title">Reserve Your Table</h3>
+                    <p class="reserve-info-desc">Avoid the wait and secure your premium spot. Whether it's a dinner party, family gathering, or private coffee meeting, booking online takes less than a minute.</p>
+                    
+                    <div class="reserve-info-list">
+                        <div class="reserve-info-item">
+                            <div class="reserve-info-icon"><i data-lucide="phone"></i></div>
+                            <div class="reserve-info-text">
+                                <h4>Instant Call Booking</h4>
+                                <p><a href="tel:+212628322414" style="color: var(--color-accent); font-weight: 600;">+212 628 322 414</a></p>
+                            </div>
+                        </div>
+                        <div class="reserve-info-item">
+                            <div class="reserve-info-icon"><i data-lucide="clock"></i></div>
+                            <div class="reserve-info-text">
+                                <h4>Service Availability</h4>
+                                <p>Open 24 hours a day, 7 days a week</p>
+                            </div>
+                        </div>
+                        <div class="reserve-info-item">
+                            <div class="reserve-info-icon"><i data-lucide="message-square"></i></div>
+                            <div class="reserve-info-text">
+                                <h4>WhatsApp Confirmation</h4>
+                                <p>Receive direct alerts on your phone</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Reservation Form -->
+                <div class="reservation-form-container" id="reservation-form-wrapper">
+                    <h3 class="form-title">Online Table Reservation</h3>
+                    <p class="form-subtitle">Fill in the details below. Reservations are instantly synchronized.</p>
+                    
+                    <form class="reserve-form" id="booking-form">
+                        <div class="form-group">
+                            <label for="booking-name" class="form-label">Full Name</label>
+                            <input type="text" id="booking-name" class="form-input" placeholder="e.g. Youssef El Alami" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="booking-phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="booking-phone" class="form-input" placeholder="e.g. 0628322414" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="booking-date" class="form-label">Date</label>
+                            <input type="date" id="booking-date" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="booking-time" class="form-label">Time</label>
+                            <input type="time" id="booking-time" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="booking-guests" class="form-label">Number of Guests</label>
+                            <select id="booking-guests" class="form-input" required>
+                                <option value="1">1 Person</option>
+                                <option value="2" selected>2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="5">5 People</option>
+                                <option value="6">6+ People (Group)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="booking-location" class="form-label">Seating Preference</label>
+                            <select id="booking-location" class="form-input">
+                                <option value="Indoor (Main Hall)">Indoor (Main Hall)</option>
+                                <option value="Outdoor Terrace">Outdoor Terrace</option>
+                                <option value="Cozy Corner (Rattan Seating)">Cozy Corner (Rattan Seating)</option>
+                                <option value="No Preference">No Preference</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="booking-message" class="form-label">Special Requests (Optional)</label>
+                            <textarea id="booking-message" class="form-input" placeholder="Let us know if you have birthday celebrations, allergies, or need a baby highchair..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="booking-submit-btn">
+                            <span id="btn-text">Confirm Booking</span>
+                            <span class="loading-spinner" id="btn-spinner" style="display: none;"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+       REAL-TIME SUCCESS NOTIFICATION MODAL (EMAIL TICKET STYLE)
+       ========================================================================== -->
+    <div class="modal-overlay" id="success-modal">
+        <div class="email-modal" id="ticket-modal">
+            <div class="email-header">
+                <div class="email-header-logo">CARRÉ D'OR</div>
+                <div class="email-header-title">Booking Confirmation Ticket</div>
+            </div>
+            <div class="email-body">
+                <h3 class="email-greeting">Congratulations, <span id="ticket-client-name">Youssef</span>!</h3>
+                <p class="email-text">Your reservation at <strong>Café Restaurant Carré d'Or</strong> has been secured! A copy of your virtual ticket has been generated below. We look forward to welcoming you.</p>
+                
+                <div class="receipt-card">
+                    <div class="receipt-title">
+                        <span>RESERVATION RECEIPT</span>
+                        <span id="ticket-id" style="color: var(--text-secondary); font-weight: 500;">#CO-129482</span>
+                    </div>
+                    
+                    <div class="receipt-grid">
+                        <div class="receipt-item">
+                            <span class="receipt-label">Guest</span>
+                            <span class="receipt-value" id="ticket-name">Youssef El Alami</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span class="receipt-label">Phone</span>
+                            <span class="receipt-value" id="ticket-phone">0628322414</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span class="receipt-label">Date & Time</span>
+                            <span class="receipt-value" id="ticket-datetime">May 28, 2026 at 8:00 PM</span>
+                        </div>
+                        <div class="receipt-item">
+                            <span class="receipt-label">Party Size</span>
+                            <span class="receipt-value" id="ticket-guests">2 Guests</span>
+                        </div>
+                        <div class="receipt-item receipt-value full-width" style="margin-top: 10px;">
+                            <span class="receipt-label">Preference</span>
+                            <span class="receipt-value" id="ticket-pref">Outdoor Terrace</span>
+                        </div>
+                        <div class="receipt-item receipt-value full-width" style="margin-top: 5px;">
+                            <span class="receipt-label">Notes</span>
+                            <span class="receipt-value" id="ticket-notes" style="font-weight: normal; font-style: italic;">None</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="email-actions">
+                    <!-- WhatsApp Click-To-Chat Back Confirmation -->
+                    <a href="#" target="_blank" class="btn btn-primary" id="ticket-whatsapp-confirm" style="background-color: #25D366; border-color: #25D366;">
+                        <i data-lucide="message-square"></i>
+                        <span>Text Cafe on WhatsApp</span>
+                    </a>
+                    
+                    <button class="email-btn-close" id="ticket-close-btn">Close Ticket</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================================================
+       GALLERY SECTION
+       ========================================================================== -->
+    <section class="gallery section-padding" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Visual Experience</span>
+                <h2 class="section-title">A Glimpse of Carré d'Or</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="gallery-grid" id="photo-gallery-grid">
+                <!-- 1. Interior Seating Wide (User Image 1) -->
+                <div class="gallery-item wide" data-src="assets/cafe_interior_1.png" id="gallery-item-1">
+                    <img src="assets/cafe_interior_1.png" alt="Carré d'Or Seating & Teapot">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon-bg"><i data-lucide="zoom-in"></i></div>
+                        <h4 class="gallery-caption">Moroccan Royal Seating</h4>
+                        <p class="gallery-category">Interior</p>
+                    </div>
+                </div>
+                
+                <!-- 2. Greenery Neon Seating Tall (User Image 2) -->
+                <div class="gallery-item tall" data-src="assets/cafe_interior_2.jpg" id="gallery-item-2">
+                    <img src="assets/cafe_interior_2.jpg" alt="Carré d'Or Wall Greenery Let's eat neon sign">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon-bg"><i data-lucide="zoom-in"></i></div>
+                        <h4 class="gallery-caption">Let's Eat Neon Wall</h4>
+                        <p class="gallery-category">Ambiance</p>
+                    </div>
+                </div>
+                
+                <!-- 3. Coffee cup custom generated -->
+                <div class="gallery-item" data-src="assets/coffee.png" id="gallery-item-3">
+                    <img src="assets/coffee.png" alt="Luxurious Cappuccino Latte Art">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon-bg"><i data-lucide="zoom-in"></i></div>
+                        <h4 class="gallery-caption">Arabica Gold Coffee</h4>
+                        <p class="gallery-category">Drinks</p>
+                    </div>
+                </div>
+                
+                <!-- 4. Food Plate Chicken (User Image 4) -->
+                <div class="gallery-item" data-src="assets/food_1.jpg" id="gallery-item-4">
+                    <img src="assets/food_1.jpg" alt="Artisan Gourmet Stuffed Chicken Rolls">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon-bg"><i data-lucide="zoom-in"></i></div>
+                        <h4 class="gallery-caption">Gourmet Chicken Roll</h4>
+                        <p class="gallery-category">Meals</p>
+                    </div>
+                </div>
+                
+                <!-- 5. Tea Pot custom generated -->
+                <div class="gallery-item" data-src="assets/tea.png" id="gallery-item-5">
+                    <img src="assets/tea.png" alt="Steaming Moroccan Mint Tea silver kettle">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon-bg"><i data-lucide="zoom-in"></i></div>
+                        <h4 class="gallery-caption">Steaming Mint Tea</h4>
+                        <p class="gallery-category">Drinks</p>
+                    </div>
+                </div>
+                
+                <!-- 6. Seating through glass (User Image 3) -->
+                <div class="gallery-item wide" data-src="assets/cafe_interior_3.jpg" id="gallery-item-6">
+                    <img src="assets/cafe_interior_3.jpg" alt="Carré d'Or Dining Table Layout chevron floor">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon-bg"><i data-lucide="zoom-in"></i></div>
+                        <h4 class="gallery-caption">Chevron Dining Lounge</h4>
+                        <p class="gallery-category">Seating</p>
+                    </div>
+                </div>
+                
+                <!-- 7. Food Plate Steak Fries (User Image 5) -->
+                <div class="gallery-item" data-src="assets/food_2.png" id="gallery-item-7">
+                    <img src="assets/food_2.png" alt="Mushroom Beef Slices plate with fries and veg">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon-bg"><i data-lucide="zoom-in"></i></div>
+                        <h4 class="gallery-caption">Premium Pepper Steak</h4>
+                        <p class="gallery-category">Meals</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal for Gallery -->
+    <div class="lightbox" id="gallery-lightbox">
+        <span class="lightbox-close" id="lightbox-close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="Zoomed view">
+    </div>
+
+    <!-- ==========================================================================
+       TESTIMONIALS SECTION
+       ========================================================================== -->
+    <section class="testimonials section-padding" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Reviews</span>
+                <h2 class="section-title">What Our Guests Say</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="testimonials-grid" id="reviews-card-deck">
+                <!-- Review 1 -->
+                <div class="testimonial-card" id="review-1">
+                    <div class="rating">
+                        <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                    </div>
+                    <p class="testimonial-text">"Café Carré d'Or is easily the best café restaurant in Béni Mellal! The elegant Moroccan interior is simply stunning, and the traditional mint tea served with msemmen was incredible. Friendly staff and open 24/24!"</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar">A</div>
+                        <div class="user-info">
+                            <h4>Amine Benchakroun</h4>
+                            <p>Local Guide • Google Review</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Review 2 -->
+                <div class="testimonial-card" id="review-2">
+                    <div class="rating">
+                        <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                    </div>
+                    <p class="testimonial-text">"I visited for lunch and had their Chicken Roll. The plating looked absolutely spectacular (very gourmet) and the taste matched. Prices are extremely affordable (1-50 MAD range). Highly recommend the outdoor terrace!"</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar">S</div>
+                        <div class="user-info">
+                            <h4>Sarah El Ghadouan</h4>
+                            <p>Morocco Diner • Tripadvisor</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Review 3 -->
+                <div class="testimonial-card" id="review-3">
+                    <div class="rating">
+                        <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                    </div>
+                    <p class="testimonial-text">"Absolutely love the ambiance here. The warm gold lamps, chevron wooden flooring, and lush greenery wall create a beautiful luxurious atmosphere. Perfect espresso coffee and lightning-fast Wi-Fi. My favorite workspace!"</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar">M</div>
+                        <div class="user-info">
+                            <h4>Mehdi Sadiki</h4>
+                            <p>Digital Nomad • Instagram reviewer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+       INFORMATION SECTION (CONTACT & GOOGLE MAPS)
+       ========================================================================== -->
+    <section class="info-section" id="contact">
+        <div class="container">
+            <div class="info-grid">
+                
+                <!-- Info cards -->
+                <div class="info-cards" id="quick-contact-panel">
+                    <div class="section-header" style="text-align: left; margin-bottom: 30px;">
+                        <span class="section-subtitle">Reach Us</span>
+                        <h2 class="section-title" style="font-size: 2.3rem;">Contact & Location</h2>
+                        <div class="divider" style="margin-left: 0;"></div>
+                    </div>
+                    
+                    <!-- 1. Address Card -->
+                    <div class="info-card" id="info-card-address">
+                        <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                        <div class="info-detail">
+                            <h4>Our Address</h4>
+                            <p>Boulevard Hassan II, Béni Mellal, Morocco</p>
+                            <a href="https://maps.google.com/?q=Boulevard+Hassan+II,+Beni+Mellal" target="_blank" style="color: var(--color-accent); font-size: 0.85rem; font-weight: 600; margin-top: 5px; display: inline-block;">Get Directions &rarr;</a>
+                        </div>
+                    </div>
+                    
+                    <!-- 2. Phone Card -->
+                    <div class="info-card" id="info-card-phone">
+                        <div class="info-icon"><i data-lucide="phone"></i></div>
+                        <div class="info-detail">
+                            <h4>Phone Number</h4>
+                            <p><a href="tel:+212628322414">+212 628 322 414</a></p>
+                            <p style="font-size: 0.8rem; color: var(--text-light);">Available for reservations 24/7</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 3. Hours Card -->
+                    <div class="info-card" id="info-card-hours">
+                        <div class="info-icon"><i data-lucide="clock"></i></div>
+                        <div class="info-detail">
+                            <h4>Opening Hours</h4>
+                            <p>Open 24 Hours / 24 Hours</p>
+                            <p style="font-size: 0.8rem; color: var(--text-light);">Monday through Sunday, including holidays</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Interactive Google Map -->
+                <div class="map-wrapper" id="maps-iframe-wrapper">
+                    <!-- High-quality Google Map Embed of Hassan II Boulevard, Beni Mellal, Morocco -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.664426543187!2d-6.3683057!3d32.3387893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda386520b72afb15%3A0xe54d2460df6fc8c3!2sBd%20Hassan%20II%2C%20Beni%20Mellal!5e0!3m2!1sen!2sma!4v1716738000000!5m2!1sen!2sma" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Café Restaurant Carré d'Or Location on Bd Hassan II, Beni Mellal">
+                    </iframe>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+       FLOATING WHATSAPP BUTTON (CLICK-TO-CHAT)
+       ========================================================================== -->
+    <div class="whatsapp-badge" id="floating-whatsapp-badge">
+        <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+        <a href="https://wa.me/212628322414" target="_blank" class="whatsapp-icon-btn" id="wa-click-btn" aria-label="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.403.002 9.803-4.394 9.806-9.794.002-2.615-1.012-5.074-2.859-6.923C16.375 2.04 13.919.998 12.007 1c-5.41 0-9.81 4.403-9.813 9.803-.001 1.547.411 3.056 1.192 4.407L2.35 19.86l4.297-1.128zm12.56-4.52c-.104-.174-.383-.28-.802-.49-.418-.21-2.473-1.22-2.857-1.36-.383-.14-.662-.21-.94.21-.279.42-1.08 1.36-1.324 1.64-.244.282-.488.31-.906.1-.419-.21-1.768-.65-3.37-2.08-1.247-1.11-2.09-2.48-2.333-2.9-.244-.42-.026-.648.183-.856.188-.188.42-.49.628-.736.208-.245.277-.42.417-.7.14-.28.07-.525-.035-.735-.105-.21-.94-2.275-1.289-3.115-.34-.82-.686-.71-.94-.724-.245-.014-.523-.016-.802-.016-.279 0-.732.105-1.116.525-.384.42-1.464 1.435-1.464 3.5 0 2.065 1.502 4.06 1.71 4.34.208.28 2.956 4.51 7.162 6.32 1 .43 1.78.68 2.38.87.99.31 1.9.27 2.62.16.806-.12 2.473-.61 2.822-1.2.348-.59.348-1.09.244-1.2-.104-.11-.383-.17-.802-.38z"/>
+            </svg>
+        </a>
+    </div>
+
+    <!-- ==========================================================================
+       FOOTER SECTION
+       ========================================================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <!-- About Info -->
+                <div class="footer-about" id="footer-branding">
+                    <a href="#" class="logo" style="margin-bottom: 20px;">
+                        <span class="logo-main">CARRÉ D'OR</span>
+                        <span class="logo-sub" style="color: rgba(255,255,255,0.6);">CAFÉ RESTAURANT</span>
+                    </a>
+                    <p class="footer-desc">Experience the harmony of modern luxury, traditional Moroccan hospitality, and chef-curated menus. Open 24/24 in Béni Mellal.</p>
+                    <div class="social-links" id="footer-socials">
+                        <!-- Instagram Link -->
+                        <a href="https://www.instagram.com/carredor__/" target="_blank" class="social-link" id="footer-ig-btn" aria-label="Instagram">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <!-- Phone Quick Action -->
+                        <a href="tel:+212628322414" class="social-link" id="footer-phone-btn" aria-label="Call Us">
+                            <i data-lucide="phone"></i>
+                        </a>
+                        <!-- Location Quick Action -->
+                        <a href="https://maps.google.com/?q=Boulevard+Hassan+II,+Beni+Mellal" target="_blank" class="social-link" id="footer-map-btn" aria-label="Location Map">
+                            <i data-lucide="map"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick links -->
+                <div class="footer-nav" id="footer-quick-links">
+                    <h3 class="footer-title">Navigation</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="#hero">Home</a></li>
+                        <li class="footer-link"><a href="#about">About Us</a></li>
+                        <li class="footer-link"><a href="#menu">Our Menu</a></li>
+                        <li class="footer-link"><a href="#gallery">Gallery</a></li>
+                        <li class="footer-link"><a href="#reservation">Table Reservations</a></li>
+                        <li class="footer-link"><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Operating hours / Contact -->
+                <div class="footer-info" id="footer-ops">
+                    <h3 class="footer-title">Café Info</h3>
+                    <div class="footer-info-list">
+                        <div class="footer-info-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>Boulevard Hassan II, Béni Mellal, Morocco</span>
+                        </div>
+                        <div class="footer-info-item">
+                            <i data-lucide="phone"></i>
+                            <span><a href="tel:+212628322414">+212 628 322 414</a></span>
+                        </div>
+                        <div class="footer-info-item">
+                            <i data-lucide="clock"></i>
+                            <span>Open 24 Hours / 7 Days a week</span>
+                        </div>
+                        <div class="footer-info-item">
+                            <i data-lucide="info"></i>
+                            <span>Dine-In, Takeaway, 1-50 MAD pricing</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Café Restaurant Carré d'Or. All rights reserved. Designed with Moroccan hospitality.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lucide Icon script -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Supabase CDN Client script -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <!-- Main JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
